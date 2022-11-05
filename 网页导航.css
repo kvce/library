@@ -1,0 +1,428 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-style: 'Microsoft YaHei', Song, SimSum;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .fasten select{
+    position: fixed;
+    left: 50%;
+    margin-left: 540px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #00ff00;
+} */
+
+.nav {
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: white;
+    background-color: orange;
+    position: relative;
+    line-height: 30px;
+}
+
+.nav:hover {
+    background-color: rgba(0,0,0,70%);
+}
+
+.nav a:hover {
+    color: orange;
+}
+.navarea2 span a:hover {
+    color: orange;
+}
+
+.nav,
+.navarea,
+.navarea1,
+.navarea2,
+a {
+    color: white;
+}
+
+.navarea {
+    position: absolute;
+    left: 50px;
+}
+
+.navarea1 {
+    position: absolute;
+    right: 160px;
+}
+
+.navarea2 {
+    height: 30px;
+    width: 100px;
+    background-color: rgba(127, 127, 127);
+    position: relative;
+    position: absolute;
+    right: 51.5px;
+}
+
+.navarea2 img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+.navarea2 span {
+    font-size: 12px;
+    position: absolute;
+    right: 2px;
+}
+
+.box {
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.header {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 3%);
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.header a:hover {
+    color: orange;
+}
+
+.header img {
+    height: 50px;
+    width: 50px;
+}
+
+.headerarea {
+    font-size: 14px;
+    position: absolute;
+    top: 15px;
+    left: 170px;
+}
+
+.headerarea a {
+    margin: 0 0 0 25px;
+    color: #000000;
+}
+
+.headerarea1 {
+    position: relative;
+    position: absolute;
+    right: 0;
+    top: 7.5px;
+}
+
+.headerarea1 input {
+    height: 30px;
+    width: 250px;
+    font-size: 8px;
+    color: #909090;
+    border: 1px solid rgba(0, 0, 0, 15%)
+}
+
+.headerarea2 {
+    height: 31px;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    border-left: 1px solid rgba(0, 0, 0, 15%)
+}
+
+.headerarea2 img {
+    display: block;
+    height: 16px;
+    width: 16px;
+    margin: 8px auto 0 auto;
+    opacity: 50%;
+}
+
+.headerarea2 img:hover {
+    opacity: 100%;
+}
+
+.nav1 {
+    height: 430px;
+    width: 200px;
+    background-color: orange;
+    position: relative;
+    margin-bottom: 6px;
+}
+
+.nav1 a {
+    float: left;
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    text-indent: 20px;
+    background-color: orange;
+}
+
+.nav1 div {
+    position: absolute;
+    top: 15px;
+}
+
+.nav1 a:hover {
+    background-color: rgba(255, 0, 0, 60%);
+}
+
+.poster {
+    overflow: hidden;
+    position: absolute;
+    left: 200px;
+    top: 56px;
+    height: 430px;
+    width: 880px;
+    line-height: 50px;
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../../images/poster1.jpg);
+    background-position: -60px 0;
+    background-size: 1080px auto;
+}
+
+.poster .circular {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+    background-color: rgba(0,0,0,25%);
+}
+
+.poster .circular1 {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+    background-color: rgba(0,0,0,25%);
+}
+
+.poster .dot {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.poster .dot span {
+    float: left;
+    border-radius: 50% 50%;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border: 1px solid rgba(0,0,0,25%);
+    background-color: #fff;
+}
+
+.poster:hover {
+    box-shadow: 0 0 5px 1px rgba(0,0,0,10%);
+}
+
+.boxbottom {
+    position: relative;
+}
+
+.bottom {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    font-size: 8px;
+    text-align: center;
+    line-height: 104.5px;
+
+    /* background-color: #00ff00; */
+}
+
+.bottom span a {
+    opacity: 85%;
+}
+
+.bottom a:hover {
+    opacity: 100%;
+    /* display: inline-block;
+    height: 74.5px;
+    width: 66px; */
+}
+
+.bottom span:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,10%); 
+}
+
+.bottom .one {
+    position: relative;
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 0 1px 0 0;
+    /* background-image: url(../../images/symble3.png); */
+    background-position: 0 0;
+    background-size: 20px 20px;
+    background-color: orange;
+}
+
+.bottom img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 11px;
+    left: 18px;
+}
+
+.bottom .two {
+    position: relative;
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 0 1px 0 0;
+    background-color: orange;
+}
+
+.bottom .three {
+    position: relative;
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 0 0px 0 0;
+    background-color: orange;
+}
+
+.bottom .four {
+    position: relative;
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 1px 1px 0 0;
+    background-color: orange;
+}
+
+.bottom .five {
+    position: relative;
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 1px 1px 0 0;
+    background-color: orange;
+}
+
+.bottom .six {
+    position: relative;
+    float: left;
+    width: 66px;
+    height: 74.5px;
+    margin: 1px 0px 0 0;
+    background-color: orange;
+}
+
+.posterbox a:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 10%);
+}
+
+.posterbox a {
+    display: inline-block;
+    height: 150px;
+    width: 287px;
+    background-color: transparent;
+}
+
+.poster1 {
+    height: 150px;
+    width: 287px;
+    margin-left: 6px;
+    background-image: url(../../images/poster2.jpg);
+    background-size: auto 150px;
+    background-position: 150px auto;
+    background-color: rgba(0, 0, 0, 30%);
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.poster2 {
+    height: 150px;
+    width: 287px;
+    margin-left: 6px;
+    background-image: url(../../images/poster3.jpg);
+    background-size: auto 150px;
+    background-position: -140px 0px;
+    background-color: rgba(0, 0, 0, 30%);
+    position: absolute;
+    top: 0;
+    left: 493px;
+}
+
+.poster3 {
+    height: 150px;
+    width: 287px;
+    margin-left: 6px;
+    background-image: url(../../images/poster4.jpg);
+    background-position: 0 0;
+    background-size: auto 160px;
+    background-color: rgba(0, 0, 0, 30%);
+    position: absolute;
+    top: 0;
+    left: 786px;
+}
+
+.banner {
+    /* display: flex; */
+    height: 60px;
+    margin-top: 6px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    background-color: #d0d0d0;
+}
+
+.production {
+    position: relative;
+    margin-top: 6px;
+}
+
+.lump {
+    float: left;
+    width: 265.5px;
+    height: 280px;
+    font-size: 14px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    text-align: center;
+    background-color: rgba(0,0,0,25%);
+}
+
+.lump:hover {
+    box-shadow: 0 0 5px 0.5px rgba(0,0,0,50%);
+    background-color: rgba(255,165,0,100%);
+}
+
+.lump h4 {
+    font-weight: 500;
+    margin: 6px 0 6px 0;
+}
+
+.lump img {
+    display: block;
+    width: 265.5px;
+    height: 180px;
+    background-color: #808080;
+}
+

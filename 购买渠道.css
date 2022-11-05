@@ -1,0 +1,76 @@
+.box {
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+    width: 1080px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,5%);
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+.header {
+    position: relative;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 50%);
+    margin-bottom: 6px;
+}
+
+.headerarea1 {
+    position: absolute;
+    left: 30px;
+}
+
+.header span, a {
+    font-size: 12px;
+    font-weight: 400px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.header:hover {
+    background-color: rgba(0, 0, 0, 80%);
+}
+
+.header a:hover {
+    color: orange;
+}
+
+.headerarea2 {
+    position: absolute;
+    right: 30px;
+}
+
+.box div {
+    height: 125px;
+    margin-bottom: 20px;
+    color: orange;
+    background-color: #fff;
+}
+
+.box h1 {
+    font-family: 'icomoon';
+    color: rgb(188, 188, 188);
+    font-size: 48px;
+    text-align: center;
+    line-height: 125px;
+    font-family: 'Microsoft YaHei', Song;   
+}
+
+.box div:hover {
+    box-shadow: 0 0 5px 1px rgba(0,0,0,25%);
+    background-color: rgba(255,165,0,100%);
+}
+
+h1:hover {
+    color: #fff;
+}
+
+.box i {
+    font-style: normal;
+    font-size: 30px;
+    vertical-align: center;
+    color: rgba(0,0,0,25%)
+}

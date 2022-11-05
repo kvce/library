@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 100%);
+}
+
+body {
+    position: relative;
+}
+
+.box {
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.header {
+    height: 25px;
+    background-color: rgba(0, 0, 0, 50%);
+    margin-bottom: 6px;
+}
+
+.headerarea1 {
+    position: absolute;
+    left: 30px;
+}
+
+.header span,
+a {
+    font-size: 12px;
+    font-weight: 400px;
+    margin-right: 5px;
+    color: #fff;
+
+}
+
+.header:hover {
+    background-color: rgba(0, 0, 0, 80%);
+}
+
+.header a:hover {
+    color: orange;
+}
+
+.headerarea2 {
+    position: absolute;
+    right: 30px;
+}
+
+.pageheader {
+    height: 200px;
+    margin-bottom: 6px;
+    background-image: url(../../images/company.jpg);
+    background-size: 1000px auto;
+    background-position: 0 -270px;
+    background-color: #000000;
+}
+
+.blue {
+    z-index: 2;
+    position: relative;
+    position: absolute;
+    top: -40px;
+    width: 270px;
+    height: 90px;
+    background-color: rgba(78, 169, 185, 100%);
+}
+
+.blue .grey {  
+    position: absolute;
+    top: 15px;
+    width: 270px;
+    height: 50px;
+    /* margin-top: 30px; */
+    background-color: #999999;
+}
+
+.grey img {
+    /* display: block; */
+    height: 40px;
+    width: 40px;
+    margin: 5px 35px;
+}
+
+.grey h1 {
+    position: absolute;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: -51px;
+}
+
+.leftrightbox {   
+    position: relative;
+}
+
+.lefttop {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 5%);
+    margin: 0 6px 6px 0;
+}
+
+.lefttop .circular {
+    z-index: 0;
+    position: absolute;
+    top: -110px;
+    right: -110px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50%;
+    background-color: rgba(78, 169, 185, 100%);
+}
+
+.lefttop h1 {
+    position: absolute;
+    top: 47px;
+    left: 35px;
+    font-weight: 600;
+    color: rgba(78, 169, 185, 100%);
+}
+
+.lefttop img {
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(0,0,0,30%);
+}
+
+.lefttop,
+.leftbottom p {
+    font-size: 12px;
+    color: rgba(0, 0, 0)
+}
+
+.lefttop .three {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+
+.lefttop .four {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.lefttop .hbar {
+    position: absolute;
+    top: 119px;
+    left: 10px;
+    height: 2px;
+    width: 270px;
+    background-color: rgba(0,0,0,30%);
+}
+
+.leftbottom {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 25%);
+    margin: 0 6px 6px 0;
+
+}
+
+.leftbottom .shang {
+    position: absolute;
+    top: 25px;
+    width: 270px;
+}
+
+.leftbottom .shang img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.leftbottom .xia img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.leftbottom .xia {
+    position: absolute;
+    top: 42px;
+    width: 270px;
+}
+
+.leftbottom .hbar1 {
+    position: absolute;
+    top: 80px;
+    left: 13px;
+    height: 2px;
+    width: 270px;
+    background-color: rgba(0,0,0,30%); 
+}
+
+.leftbottom p {
+    color: #fff;
+}
+
+.leftbottom .one {
+    position: absolute;
+    left: 13px;
+}
+
+.leftbottom .two {
+    position: absolute;
+    left: 13px;
+    top: 50px;
+}
+
+.rightbox {
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 306px;
+    width: 694px;
+    height: 426px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 10%);
+}
+
+.rightbox .five {
+    position: relative;
+    /* position: absolute;
+    top: 10px; */
+    height: 120px;
+    width: 694px;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 30%);
+}
+
+.rightbox .six {
+    position: relative;
+    /* position: absolute;
+    top: 150px; */
+    height: 120px;
+    width: 694px;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 30%);
+}
+
+.up {
+    /* position: absolute; */
+    margin-top: -68px;
+    right: 0px;
+    width: 574px;
+    height: 120px;
+    background-color: #fff;
+}
+
+.up div {
+    width: 530px;
+    /* background-color: #00ff00; */
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.middle div {
+    width: 530px;
+    /* background-color: #00ff00; */
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.down div {
+    width: 530px;
+    /* background-color: #00ff00; */
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.middle {
+    position: absolute;
+    right: 0;
+    width: 574px;
+    height: 120px;
+    background-color: #fff;
+}
+
+.down {
+    position: absolute;
+    right: 0;
+    width: 574px;
+    height: 120px;
+    background-color: #fff;
+}
+
+.rightbox .seven {
+    /* position: absolute;
+    top: 290px; */
+    height: 120px;
+    width: 694px;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 30%);
+}
+
+.rightbox span {
+    /* position: relative; */
+    float: left;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(0,0,0,50%);
+}
+
+.rightbox img {
+    display: block;
+    /* position: absolute;
+    top: 50%;
+    margin-top: 30px; */
+    width: 60px;
+    height: 60px;
+    margin: 30px auto;
+}
+
+.five .up {
+    position: absolute;
+    top: 68px;
+    /* margin-top: 60px; */
+    /* background-color: #ff0000; */
+}
+
+.banner {
+    height: 30px;
+    background-color: #999999;
+}
